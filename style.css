@@ -1,0 +1,168 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #444444;
+  background-image: url(fundo.png);
+}
+
+.fundo-white {
+  background-color: white;
+}
+
+.section {
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.title{
+  color: #ffffff;
+  font-size: 40px; 
+  margin: 35px
+}
+
+
+
+#section-1{
+  height: 100vh;
+  background-image: url(nuvem.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#section-1 .foguete{ 
+  margin: 30px;
+  width: 117.96px;
+  height: 139.96px; 
+  justify-content: center;
+
+}
+
+#section-2 {
+   line-height: 27px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.legenda{
+ 
+  font-weight: bold;
+  font-size: 22px 
+ 
+}
+
+#section-3{
+ background-image: url(moon.png);
+ background-repeat: no-repeat;
+ background-position: right;
+ background-size: contain;
+
+}
+
+.paragraph{
+color: black;
+text-align: center;
+}
+
+.section .title-3 {
+  font-size: 24px;
+}
+
+.btn {  
+  width: 373px;
+  
+
+  color: white;
+  font-size: 28px;
+  height: 45px;
+  background: #F04D4E;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 32px 1px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 54px 0 55px 0
+  }
+
+#nav .link {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0 5px;
+  transition: all ease 1s;
+
+}
+
+#nav .link:hover {
+  text-decoration: underline;
+}
+
+#nav .link.featured {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+#nav .link.featured:hover {
+  text-decoration: none;
+  background-color: #000000;
+} 
+
+
+
+#section-5 {  
+
+  background-image: url(satelite.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 0;
+}
+
+.h2{
+  color: #ffffff;
+}
+
+#footer{
+  background-image: url(nuv 1.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: contain;
+
+}
